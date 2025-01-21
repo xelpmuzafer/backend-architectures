@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  app:
+    image: python:3.9
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python main.py
